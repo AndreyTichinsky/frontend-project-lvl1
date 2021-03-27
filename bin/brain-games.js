@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-console.log("Welcome to the Brain Games!");
+// eslint-disable-next-line no-unused-vars
+import cli from '../src/cli.js';
+
+console.log('Welcome to the Brain Games!');
