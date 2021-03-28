@@ -1,6 +1,6 @@
-import { randomGenerator } from './randomGenerator.js';
+import randomGenerator from './randomGenerator.js';
 
-export const randomExprGen = (min, max) => {
+const randomExprGen = (min, max) => {
   const operators = ['+', '-', '*'];
   const opStartId = 0;
   const opEndId = 2;
@@ -9,3 +9,4 @@ export const randomExprGen = (min, max) => {
   const secondDigit = randomGenerator(min, max);
   return `${firstDigit} ${randomOperator} ${secondDigit}`;
 };
+export default randomExprGen;

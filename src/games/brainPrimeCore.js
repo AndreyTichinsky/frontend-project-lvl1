@@ -1,6 +1,7 @@
-import { randomGenerator, primeSolver } from '../index.js';
+import randomGenerator from '../helpers/randomGenerator.js';
+import primeSolver from '../helpers/primeSolver.js';
 
-export const brainPrimeCore = () => {
+const brainPrimeCore = () => {
   const primeRange = [1, 100];
   const questionNumber = randomGenerator(...primeRange);
   const correctAnswer = primeSolver(questionNumber) ? 'yes' : 'no';
@@ -9,3 +10,4 @@ export const brainPrimeCore = () => {
     correctAnswer,
   };
 };
+export default brainPrimeCore;

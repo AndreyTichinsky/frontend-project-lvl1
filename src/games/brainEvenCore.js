@@ -1,6 +1,7 @@
-import { isEven, randomGenerator } from '../index.js';
+import isEven from '../helpers/isEven.js';
+import randomGenerator from '../helpers/randomGenerator.js';
 
-export const brainEvenCore = () => {
+const brainEvenCore = () => {
   const minLimit = 0;
   const maxLimit = 100;
   const randomNumber = randomGenerator(minLimit, maxLimit);
@@ -10,3 +11,4 @@ export const brainEvenCore = () => {
     correctAnswer,
   };
 };
+export default brainEvenCore;

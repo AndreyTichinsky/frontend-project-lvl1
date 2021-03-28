@@ -1,4 +1,4 @@
-export const exprSolver = (expr) => {
+const exprSolver = (expr) => {
   const exprArray = expr.split(' ');
   const firstOperand = Number(exprArray[0]);
   const secondOperand = Number(exprArray[2]);
@@ -14,3 +14,4 @@ export const exprSolver = (expr) => {
   }
   return null;
 };
+export default exprSolver;

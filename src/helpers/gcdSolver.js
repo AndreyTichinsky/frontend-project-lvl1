@@ -1,4 +1,4 @@
-export const gcdSolver = (a, b) => {
+const gcdSolver = (a, b) => {
   let d1 = a;
   let d2 = b;
   while (d1 !== 0 && d2 !== 0) {
@@ -10,3 +10,4 @@ export const gcdSolver = (a, b) => {
   }
   return d1 + d2;
 };
+export default gcdSolver;

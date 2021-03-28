@@ -1,6 +1,6 @@
-import { randomGenerator } from '../index.js';
+import randomGenerator from '../helpers/randomGenerator.js';
 
-export const brainProgCore = () => {
+const brainProgCore = () => {
   const baseCfg = [1, 10];
   const stepCfg = [1, 10];
   const placeCfg = [0, 9];
@@ -19,3 +19,4 @@ export const brainProgCore = () => {
     correctAnswer,
   };
 };
+export default brainProgCore;
