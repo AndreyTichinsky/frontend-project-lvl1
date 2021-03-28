@@ -1,7 +1,7 @@
 export const exprSolver = (expr) => {
   const exprArray = expr.split(' ');
-  const firstOperand = exprArray[0];
-  const secondOperand = exprArray[2];
+  const firstOperand = Number(exprArray[0]);
+  const secondOperand = Number(exprArray[2]);
   const operator = exprArray[1];
   switch (operator) {
     case '+':
