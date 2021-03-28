@@ -12,4 +12,7 @@
 [Lose example](https://asciinema.org/a/M667K8DYtzDi7gcKCpAhJpco9)  
 ### Brain-gcd  
 [Win example](https://asciinema.org/a/Kbx9PKhpErrc7ySR1MyzBLsAs)  
-[Lose example](https://asciinema.org/a/ifVOyIvJEJnGm2DQupvfVLU03)
+[Lose example](https://asciinema.org/a/ifVOyIvJEJnGm2DQupvfVLU03)  
+### Brain-progression
+[Win example](https://asciinema.org/a/zx6ZZzaauN01Dlkeflc1ub5dN)  
+[Lose example](https://asciinema.org/a/ha47Snd43JR07djX50vjvKtcn)  
