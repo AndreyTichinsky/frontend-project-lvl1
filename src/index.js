@@ -3,6 +3,9 @@ export {
   randomGenerator,
   randomExprGen,
   exprSolver,
+  gcdSolver,
 } from './helpers/index.js';
-export { coreLogic, brainEvenCore, brainCalcCore } from './modules/index.js';
+export {
+  coreLogic, brainEvenCore, brainCalcCore, brainGcdCore,
+} from './modules/index.js';
 export { name } from './cli.js';

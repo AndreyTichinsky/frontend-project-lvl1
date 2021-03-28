@@ -1,4 +1,4 @@
-import { isEven, randomGenerator } from '../helpers/index.js';
+import { isEven, randomGenerator } from '../index.js';
 
 export const brainEvenCore = () => {
   const minLimit = 0;
