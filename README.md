@@ -12,4 +12,4 @@
 [Lose example](https://asciinema.org/a/M667K8DYtzDi7gcKCpAhJpco9)  
 ### Brain-gcd  
 [Win example](https://asciinema.org/a/Kbx9PKhpErrc7ySR1MyzBLsAs)  
-[lose example](https://asciinema.org/a/ifVOyIvJEJnGm2DQupvfVLU03)
+[Lose example](https://asciinema.org/a/ifVOyIvJEJnGm2DQupvfVLU03)
