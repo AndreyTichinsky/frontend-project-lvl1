@@ -16,3 +16,6 @@
 ### Brain-progression
 [Win example](https://asciinema.org/a/zx6ZZzaauN01Dlkeflc1ub5dN)  
 [Lose example](https://asciinema.org/a/ha47Snd43JR07djX50vjvKtcn)  
+### Brain-prime
+[Win example](https://asciinema.org/a/5KsA2UGhgOzpj5YOFYuLUVjvG)  
+[Lose example](https://asciinema.org/a/uM8e9IbfWPnOGUjd2ZsJQeFuB)  
