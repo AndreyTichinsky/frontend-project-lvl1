@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { coreLogic, brainCalcCore } from '../src/index.js';
+import coreLogic from '../src/games/coreLogic.js';
+import brainCalcCore from '../src/games/brainCalcCore.js';
 
 coreLogic({
   rulesQuestion: 'What is the result of the expression?',

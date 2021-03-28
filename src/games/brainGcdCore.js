@@ -1,6 +1,7 @@
-import { randomGenerator, gcdSolver } from '../index.js';
+import randomGenerator from '../helpers/randomGenerator.js';
+import gcdSolver from '../helpers/gcdSolver.js';
 
-export const brainGcdCore = () => {
+const brainGcdCore = () => {
   const minLimit = 1;
   const maxLimit = 10;
   const baseGcd = randomGenerator(minLimit, maxLimit);
@@ -12,3 +13,4 @@ export const brainGcdCore = () => {
     correctAnswer: correctGcd,
   };
 };
+export default brainGcdCore;

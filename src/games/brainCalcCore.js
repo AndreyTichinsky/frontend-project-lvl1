@@ -1,6 +1,7 @@
-import { randomExprGen, exprSolver } from '../index.js';
+import randomExprGen from '../helpers/randomExprGen.js';
+import exprSolver from '../helpers/exprSolver.js';
 
-export const brainCalcCore = () => {
+const brainCalcCore = () => {
   const minLimit = 0;
   const maxLimit = 20;
   const randomExpression = randomExprGen(minLimit, maxLimit);
@@ -10,3 +11,4 @@ export const brainCalcCore = () => {
     correctAnswer,
   };
 };
+export default brainCalcCore;

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { coreLogic, brainPrimeCore } from '../src/index.js';
+import coreLogic from '../src/games/coreLogic.js';
+import brainPrimeCore from '../src/games/brainPrimeCore.js';
 
 coreLogic({
   rulesQuestion:

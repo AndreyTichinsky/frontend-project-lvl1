@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
-import { name } from '../index.js';
+import name from '../cli.js';
 
-export const coreLogic = ({
+const coreLogic = ({
   rulesQuestion,
   currentGameCore,
 }) => {
@@ -28,3 +28,5 @@ export const coreLogic = ({
     console.log(`Congratulations, ${name}!`);
   }
 };
+
+export default coreLogic;
