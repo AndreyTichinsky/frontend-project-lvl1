@@ -1,4 +1,4 @@
-import { randomExprGen, exprSolver } from '../helpers/index.js';
+import { randomExprGen, exprSolver } from '../index.js';
 
 export const brainCalcCore = () => {
   const minLimit = 0;
