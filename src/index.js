@@ -13,5 +13,5 @@ export {
   brainGcdCore,
   brainProgCore,
   brainPrimeCore,
-} from './modules/index.js';
+} from './games/index.js';
 export { name } from './cli.js';
