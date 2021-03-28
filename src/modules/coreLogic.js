@@ -1,17 +1,17 @@
 import readlineSync from 'readline-sync';
-import { randomGenerator, isEven } from './index.js';
-// eslint-disable-next-line no-unused-vars
-import name from './cli.js';
+import { name } from '../index.js';
 
-const brainEvenLogic = () => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+export const coreLogic = ({
+  rulesQuestion,
+  currentGameCore,
+}) => {
+  console.log(rulesQuestion);
   let isCorrect = true;
   let counter = 0;
   const winValue = 3;
   while (isCorrect && counter < winValue) {
-    const randomNumber = randomGenerator(0, 100);
-    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
-    console.log(`Question: ${randomNumber}`);
+    const { question, correctAnswer } = currentGameCore();
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== correctAnswer) {
       isCorrect = false;
@@ -28,4 +28,3 @@ const brainEvenLogic = () => {
     console.log(`Congratulations, ${name}!`);
   }
 };
-export default brainEvenLogic;
