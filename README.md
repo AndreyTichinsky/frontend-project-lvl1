@@ -8,5 +8,5 @@
 [Win example](https://asciinema.org/a/8ubLI7GvoCxvm4Z4XtbIIBQIe)  
 [Lose example](https://asciinema.org/a/6J4leV5rcg0h79cXJ0ibeAziP)  
 ### Brain-calc
-[Win example](https://asciinema.org/a/7OYQiPGqcJaAX3JJKCxBnVQUH)
-[Lose example](https://asciinema.org/a/M667K8DYtzDi7gcKCpAhJpco9)
+[Win example](https://asciinema.org/a/7OYQiPGqcJaAX3JJKCxBnVQUH)  
+[Lose example](https://asciinema.org/a/M667K8DYtzDi7gcKCpAhJpco9)  
