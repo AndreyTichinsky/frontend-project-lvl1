@@ -4,6 +4,7 @@ export {
   randomExprGen,
   exprSolver,
   gcdSolver,
+  primeSolver,
 } from './helpers/index.js';
 export {
   coreLogic,
@@ -11,5 +12,6 @@ export {
   brainCalcCore,
   brainGcdCore,
   brainProgCore,
+  brainPrimeCore,
 } from './modules/index.js';
 export { name } from './cli.js';
