@@ -1,4 +1,7 @@
 #!/usr/bin/env node
-import brainEvenLogic from '../src/brainEvenLogic.js';
+import { coreLogic, brainEvenCore } from '../src/index.js';
 
-brainEvenLogic();
+coreLogic({
+  rulesQuestion: 'Answer "yes" if the number is even, otherwise answer "no".',
+  currentGameCore: brainEvenCore,
+});

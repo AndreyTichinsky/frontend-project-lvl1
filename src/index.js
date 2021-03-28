@@ -1,2 +1,3 @@
-export { isEven } from './isEven.js';
-export { randomGenerator } from './random.js';
+export { isEven, randomGenerator } from './helpers/index.js';
+export { coreLogic, brainEvenCore } from './modules/index.js';
+export { name } from './cli.js';
